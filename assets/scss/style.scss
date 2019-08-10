@@ -35,18 +35,7 @@ Text Domain: coloredcow, CSP
 		display: block;
 	}
 }
-.grid-container{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-}
-.bg-grey-image{
-	background-image: url('dist/img/grey-bg-min.png');
-}
-.need-block-content{
-	p {
-		@extend .mb-8\.6, .mb-xl-10\.8;
-	}
-}
+
 
 @import 'utilities';
 @import 'media/sm';
@@ -54,8 +43,3 @@ Text Domain: coloredcow, CSP
 @import 'media/lg';
 @import 'media/xl';
 @import 'media/hd';
-@import 'header/style';
-@import 'footer/style';
-@import 'front-page/style';
-@import 'about-us/style';
-@import 'connect/style';
