@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/coloredcow-admin/bootstrap-boilerplate/issues"
   },
-  "homepage": "https://github.com/coloredcow-admin/bootstrap-boilerplate#readme"
+  "homepage": "https://github.com/coloredcow-admin/bootstrap-boilerplate#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
 }
