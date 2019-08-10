@@ -8,10 +8,10 @@
     width: 100vw !important;
 }
 .overflow-hidden {
-	overflow: hidden;
+	overflow: hidden !important;
 }
 .list-style-none {
-	list-style-type: none;
+	list-style-type: none !important;
 }
 .bg-size-contain {
 	background-size: contain !important;
@@ -20,19 +20,19 @@
     background-position: center !important;
 }
 .bg-size-cover{
-	background-size: cover;
+	background-size: cover !important;
 }
 .bg-no-repeat {
 	background-repeat: no-repeat !important;
 }
 .bottom-0{
-	bottom: 0px;
+	bottom: 0px !important;
 }
 .right-0{
-	right: 0px;
+	right: 0px !important;
 }
 .top-0{
-	top: 0px;
+	top: 0px !important;
 }
 .border-2{
 	border-width: 2px !important;
@@ -44,22 +44,22 @@
 
 @each $size, $length in $sizes {
 	.min-h-#{$size} {
-		min-height: $length;
+		min-height: $length !important;
 	}
 	.max-h-#{$size} {
-		max-height: $length;
+		max-height: $length !important;
 	}
 	.min-w-#{$size} {
-		min-width: $length;
+		min-width: $length !important;
 	}
 	.max-w-#{$size} {
-		max-width: $length;
+		max-width: $length !important;
 	}
 }
 
 @each $name, $value in $line-heights {
 	.leading-#{$name} {
-		line-height: $value;
+		line-height: $value !important;
 	}
 }
 @each $size, $value in $font-sizes {

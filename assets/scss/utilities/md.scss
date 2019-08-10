@@ -7,21 +7,21 @@
 			height: $length !important;
 		}
 		.min-h-md-#{$size} {
-			min-height: $length;
+			min-height: $length !important;
 		}
 		.max-h-md-#{$size} {
-			max-height: $length;
+			max-height: $length !important;
 		}
 		.min-w-md-#{$size} {
-			min-width: $length;
+			min-width: $length !important;
 		}
 		.max-w-md-#{$size} {
-			max-width: $length;
+			max-width: $length !important;
 		}
 	}
 	@each $name, $value in $line-heights {
 		.leading-md-#{$name} {
-			line-height: $value;
+			line-height: $value !important;
 		}
 	}
 	@each $size, $value in $font-sizes {

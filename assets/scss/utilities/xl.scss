@@ -7,21 +7,21 @@
 			height: $length !important;
 		}
 		.min-h-xl-#{$size} {
-			min-height: $length;
+			min-height: $length !important;
 		}
 		.max-h-xl-#{$size} {
-			max-height: $length;
+			max-height: $length !important;
 		}
 		.min-w-xl-#{$size} {
-			min-width: $length;
+			min-width: $length !important;
 		}
 		.max-w-xl-#{$size} {
-			max-width: $length;
+			max-width: $length !important;
 		}
 	}
 	@each $name, $value in $line-heights {
 		.leading-xl-#{$name} {
-			line-height: $value;
+			line-height: $value !important;
 		}
 	}
 	@each $size, $value in $font-sizes {

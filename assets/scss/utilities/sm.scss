@@ -7,26 +7,26 @@
 			height: $length !important;
 		}
 		.min-h-sm-#{$size} {
-			min-height: $length;
+			min-height: $length !important;
 		}
 		.max-h-sm-#{$size} {
-			max-height: $length;
+			max-height: $length !important;
 		}
 		.min-w-sm-#{$size} {
-			min-width: $length;
+			min-width: $length !important;
 		}
 		.max-w-sm-#{$size} {
-			max-width: $length;
+			max-width: $length !important;
 		}
 	}
 	@each $name, $value in $line-heights {
 		.leading-sm-#{$name} {
-			line-height: $value;
+			line-height: $value !important;
 		}
 	}
 	@each $size, $value in $font-sizes {
 		.fz-sm-#{$size} {
-			font-size: $value;
+			font-size: $value !important;
 		}
 	}
 }
