@@ -1,15 +1,23 @@
 {
-  "name": "your-first-node-package",
-  "version": "0.0.0",
-  "description": "My very first package",
+  "name": "bootstrap-boilerplate",
+  "version": "0.0.1",
+  "description": "Extended utilities for Bootstrap.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/user/your-first-node-package.git"
+    "url": "git+https://github.com/coloredcow-admin/bootstrap-boilerplate.git"
   },
-  "author": "Elijah Insua <tmpvar@gmail.com> (http://tmpvar.com)",
-  "license": "MIT"
+  "keywords": [
+    "bootstrap",
+    "sass"
+  ],
+  "author": "ColoredCow (https://coloredcow.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coloredcow-admin/bootstrap-boilerplate/issues"
+  },
+  "homepage": "https://github.com/coloredcow-admin/bootstrap-boilerplate#readme"
 }
