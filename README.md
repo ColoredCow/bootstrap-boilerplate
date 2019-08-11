@@ -1,25 +1,17 @@
 # bootstrap-boilerplate
 
-  NPM package for the extendeding utilities for Bootstrap.
+   Extended utilities for Bootstrap.
 
 ### Command to install package
 
-  ```
-    npm i bootstrap-boilerplate
-  ```
+   ```
+    npm install bootstrap-boilerplate
+   ```
   
 ### Setup
-
-1. Write these line in the in the saas file
-    `@import "~bootstrap-boilerplate/assets/scss/style.scss";` 
-
    
-     ```
-      - E.g
-         For the laravel in `app.scss`
+   You only need to place the following line in your main `sass` file
 
-         For the Wordpress `theme/src/scss/style.scss`
-      ```
+   `@import "~bootstrap-boilerplate/assets/scss/style";`
 
-
-  
+   Then compile your sass.
