@@ -26,19 +26,6 @@ module.exports = function (grunt) {
             }
         },
 
-        uncss: {
-            dist: {
-                options: {
-                    stylesheets  : [ 'style.css' ],
-                    ignoreSheets : [/fonts.googleapis/],
-                    urls         : [],
-                },
-                files: {
-                    'style.css': ['**/*.php']
-                }
-            }
-        },
-
         watch: {
             scripts: {
                 files: [
@@ -57,9 +44,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-sass');
-    // grunt.loadNpmTasks('grunt-uncss');
 
     grunt.registerTask('default', ['sass', 'uglify']);
-    // grunt.registerTask('default', ['sass', 'uncss:dist', 'uglify']);
 
 };
