@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extended utilities for Bootstrap.",
   "main": "index.js",
   "scripts": {
