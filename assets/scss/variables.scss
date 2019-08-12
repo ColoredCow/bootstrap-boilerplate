@@ -1,4 +1,4 @@
-$spacer: 10px;
+$spacer: 10px !default;
 $spacers: () !default;
 
 $spacers: map-merge(
@@ -71,7 +71,7 @@ $line-heights: map-merge(
 	$line-heights
 );
 
-$white: #ffffff;
+$white: #ffffff !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
@@ -88,4 +88,4 @@ $grid-breakpoints: (
 	lg: 992px,
 	xl: 1200px,
 	hd: 1440px
-);
+) !default;

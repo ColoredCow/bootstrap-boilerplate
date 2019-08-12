@@ -21,7 +21,7 @@ module.exports = function (grunt) {
                     sourcemap: 'none',
                 },
                 files: {
-                    'style.css': 'assets/scss/style.scss',
+                    'dist/css/style.css': 'assets/scss/style.scss',
                 }
             }
         },
