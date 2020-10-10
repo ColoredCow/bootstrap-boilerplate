@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coloredcow-admin/bootstrap-boilerplate.git"
+    "url": "git+https://github.com/coloredcow/bootstrap-boilerplate.git"
   },
   "keywords": [
     "bootstrap",
-    "sass"
+    "scss"
   ],
   "author": "ColoredCow (https://coloredcow.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/coloredcow-admin/bootstrap-boilerplate/issues"
+    "url": "https://github.com/coloredcow/bootstrap-boilerplate/issues"
   },
-  "homepage": "https://github.com/coloredcow-admin/bootstrap-boilerplate#readme",
+  "homepage": "https://github.com/coloredcow/bootstrap-boilerplate#readme",
   "dependencies": {
     "bootstrap": "^4.3.1"
   },
